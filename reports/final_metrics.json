@@ -1,0 +1,20 @@
+{
+  "best_model": "XGBoost (scale_pos_weight)",
+  "threshold": 0.5,
+  "review_cost": 5.0,
+  "test_rows": 56746,
+  "test_frauds": 95,
+  "pr_auc": 0.867524805608056,
+  "roc_auc": 0.9770024034508612,
+  "precision": 0.9625,
+  "recall": 0.8105263157894737,
+  "f1": 0.88,
+  "tp": 77,
+  "fp": 3,
+  "fn": 18,
+  "tn": 56648,
+  "fraud_amount_total": 12973.060000000001,
+  "fraud_amount_caught": 10476.949999999999,
+  "cost_with_model": 2511.11,
+  "cost_without_model": 12973.060000000001
+}

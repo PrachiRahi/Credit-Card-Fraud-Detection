@@ -1,0 +1,7 @@
+model,val_pr_auc,test_pr_auc,test_roc_auc,test_precision@0.5,test_recall@0.5,test_f1@0.5
+LR (baseline),0.7002,0.7427,0.9645,0.8788,0.6105,0.7205
+LR (class_weight),0.6982,0.7282,0.9617,0.0544,0.9053,0.1026
+LR + SMOTE,0.7025,0.7298,0.9623,0.051,0.8947,0.0964
+RandomForest (balanced),0.7874,0.8407,0.9752,0.9103,0.7474,0.8208
+XGBoost (scale_pos_weight),0.8092,0.8675,0.977,0.9625,0.8105,0.88
+XGBoost + SMOTE,0.7839,0.8558,0.981,0.798,0.8316,0.8144

@@ -1,0 +1,1 @@
+{"model": "XGBoost (scale_pos_weight)", "threshold": 0.5, "format": "xgboost_json"}
